@@ -155,47 +155,34 @@ LDL-FLC/
 If you use this code in your research, please cite the original paper:
 
 ```bibtex
-@article{wang2020label,
-  title={Label Distribution Learning by Exploiting Fuzzy Label Correlation},
-  author={Wang, Jing and others},
-  journal={...},
-  year={2020}
+@ARTICLE{10636800,
+  author={Wang, Jing and Kou, Zhiqiang and Jia, Yuheng and Lv, Jianhui and Geng, Xin},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Label Distribution Learning by Exploiting Fuzzy Label Correlation}, 
+  year={2025},
+  volume={36},
+  number={5},
+  pages={8979-8990},
+  doi={10.1109/TNNLS.2024.3438756}
 }
 ```
 
 ## License & Attribution
 
-### Original Work
+This project is a derivative work based on the original implementation from [wangjing4research/LDL-FLC](https://github.com/wangjing4research/LDL-FLC).
 
-This project is based on the original implementation from:
+**Copyright Attribution:**
+- Original Python code and algorithms: Copyright (c) wangjing4research
+- MATLAB implementation and code improvements: Copyright (c) 2024 Nitrogen216
 
-**Original Repository**: [wangjing4research/LDL-FLC](https://github.com/wangjing4research/LDL-FLC)
+**Contributions of this repository:**
+- Complete MATLAB port of all algorithms with verified numerical consistency
+- Improved code organization with core modules structure
+- Bug fixes and enhanced documentation
 
-The original Python implementation and algorithms are the work of the original authors. This repository extends the original work by:
+**License:** This project maintains the same license as the [original repository](https://github.com/wangjing4research/LDL-FLC). Please refer to the original repository for license details.
 
-1. **Adding MATLAB Implementation**: Complete MATLAB port of all algorithms with verified numerical consistency
-2. **Code Organization**: Improved code structure with core modules in `core/` subdirectory
-3. **Bug Fixes**: Fixed several bugs in the original implementation
-4. **Documentation**: Enhanced documentation and usage examples
-
-### Copyright Notice
-
-- **Original Python Code**: Copyright (c) wangjing4research
-- **MATLAB Implementation & Enhancements**: Copyright (c) 2024 Nitrogen216
-
-### License
-
-This project maintains the same license as the original repository. Please refer to the original repository for license details.
-
-**Important**: 
-- If you use the original Python code, please cite the original paper and repository
-- If you use the MATLAB implementation, please also acknowledge this repository
-- The datasets are provided by the original papers - please cite them if you use the datasets
-
-### Acknowledgments
-
-- Original algorithm and Python implementation: [wangjing4research/LDL-FLC](https://github.com/wangjing4research/LDL-FLC)
-- MATLAB implementation and code improvements: This repository
+**Important:** When using this code, please cite the original paper (see Citation section above) and acknowledge the original repository. The datasets are provided by the original papers - please cite them accordingly.
 
 ## Datasets
 
@@ -226,5 +213,5 @@ For questions about the original algorithm or Python implementation, please refe
 
 ---
 
-**Note**: This is a derivative work based on [wangjing4research/LDL-FLC](https://github.com/wangjing4research/LDL-FLC). All original copyrights and licenses are preserved.
+**Note**: This repository extends the original work with MATLAB implementation. Original copyrights and licenses are preserved. Please cite the original paper when using this code.
 
