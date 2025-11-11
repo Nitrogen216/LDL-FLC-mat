@@ -201,17 +201,4 @@ Available datasets:
 - fbp5500
 - Ren
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Contact
-
-For questions about the MATLAB implementation, please open an issue in this repository.
-
-For questions about the original algorithm or Python implementation, please refer to the [original repository](https://github.com/wangjing4research/LDL-FLC).
-
----
-
-**Note**: This repository extends the original work with MATLAB implementation. Original copyrights and licenses are preserved. Please cite the original paper when using this code.
 
